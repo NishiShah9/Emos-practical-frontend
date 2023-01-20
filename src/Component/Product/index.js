@@ -7,6 +7,7 @@ import { Input, Space } from "antd";
 const { Search } = Input;
 
 const Product = () => {
+  
   const [data, setData] = useState([]);
   const [search, setSearch] = useState("");
   useEffect(() => {
