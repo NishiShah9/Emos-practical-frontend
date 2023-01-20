@@ -35,14 +35,7 @@ const ProductCard = ({ products }) => {
                 <b>Price : </b>
                 {item.price}
               </div>
-              {/* <InputNumber
-                min={0}
-                defaultValue={0}
-                width="100%"
-                // onChange={(value) => {
-                //   setCurrentValue(value);
-                // }}
-              /> */}
+          
             </Card>
           );
         })}
